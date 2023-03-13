@@ -12,8 +12,7 @@
 //     // console.log("whats a matta you")}
 
 
-let path = "bad"
-
+let path = window.prompt("pick something")
 switch (path) {
     case "good":
         console.log("you have made a good choice")
@@ -22,6 +21,9 @@ switch (path) {
     case "bad":
         console.log("bad, wrong!")
         break;
+    case "horror":
+            console.log("scary")
+            break;
 
     default:
         console.log("if you choose not to decide you still have made a choice")
